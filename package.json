@@ -31,6 +31,8 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
     "lite-server": "^2.2.2"
   }
 }

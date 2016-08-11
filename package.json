@@ -1,0 +1,36 @@
+{
+  "name": "learning-angular2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "typings": "typings",
+    "postinstall": "typings install",
+    "preinstall": "rm -rf ./app",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.5",
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/http": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.5",
+    "@angular/router": "^3.0.0-rc.1",
+    "@angular/router-deprecated": "^2.0.0-rc.2",
+    "bootstrap": "^3.3.7",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.11",
+    "systemjs": "^0.19.36",
+    "typescript": "^1.8.10",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
